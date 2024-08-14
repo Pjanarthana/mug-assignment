@@ -1,0 +1,22 @@
+/* src/components/Contact.css */
+.contact {
+    background-color: var(--secondary-background);
+    text-align: center;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: 50px auto 0;
+    display: flex;
+  }
+  
+  .contact input[type="email"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .contact button {
+    border-radius: 0 5px 5px 0;
+  }

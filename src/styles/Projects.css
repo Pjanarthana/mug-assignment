@@ -1,0 +1,46 @@
+/* src/components/Projects.css */
+.projects {
+    background-color: var(--secondary-background);
+    text-align: center;
+  }
+  
+  .project-filters {
+    margin-bottom: 30px;
+  }
+  
+  .project-filters button {
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .project-filters button.active {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .project-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-card h3 {
+    padding: 20px;
+  }
